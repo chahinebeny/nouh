@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>noabio_healthdz</title>
+    <title>Be Healthy</title>
     <link rel="shortcut icon" href="image/logoultimate.png" type="image/x-icon">
     <link rel="stylesheet" href="css/framework.css">
     <link rel="stylesheet" href="css/master.css">
@@ -24,7 +24,7 @@
         'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '231967082529201');
         fbq('track', 'PageView');
-        fbq('track', 'ViewContent',{content_type:'gain-weight-page'});
+        fbq('track', 'ViewContent',{content_type:'colone-ramdan-page'});
     </script>
     <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=231967082529201&ev=PageView&noscript=1"
@@ -88,6 +88,10 @@
                     ،شكرا لك على طلبك الأخير! يسعدنا أن نؤكد استلامنا لطلبك وجارٍ معالجته.
                 </p>
                 <p>نحن نقدر عملك وسنبذل قصارى جهدنا لشحن طلبك في أقرب وقت ممكن. إذا كانت لديك أي أسئلة أو استفسارات ، فلا تتردد في التواصل معنا على الفيسبوك او عبر الهاتف الموجود اسفلا .</p>
+                <div class="notice">
+                    
+                    <p> <span>ملاحظة :</span> من فضلك اشترك في الصفحة من اجل إعطائك البرنامج ونصائح الاستعمال</p>
+                </div>
                 <ul class="social-media">
                     <a href="https://www.facebook.com/profile.php?id=100089819952803" target="_blank" class="facebook">
                         <i class="fa-brands fa-facebook-f"></i>
@@ -100,7 +104,7 @@
                 <p>مع أطيب التحيات،<span>noabio_healthdz</span></p>
 
             </div>
-            <div class="sticky-cart-bar">
+            <div class="sticky-cart-bar" dis>
                 <div class="container">
                     <div class="quantity">
                         <span id="increment" class="quantity-handler quantity-handler-left" onclick="stepper(this)">
@@ -111,7 +115,7 @@
                             <i class="fa-solid fa-minus"></i>
                         </span>
                     </div>
-                    <a href="#submit">اضغط هنا للتاكيد الطلب</a>
+                    <a href="#submit" onclick()="sub_sticky">اضغط هنا للتاكيد الطلب</a>
                 </div>
             </div>
             <div class="container">
@@ -119,70 +123,55 @@
                     <div class="image">
                         <div class="container-slider">
                             <div class="mySlides mySlides-product">
-                                <div class="numbertext">1 / 5</div>
-                                <img src="image/gain-weight.png" style="width:100%">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="image/pack-colon.jpg" style="width:100%">
                             </div>
 
                             <div class="mySlides mySlides-product">
-                                <div class="numbertext">2 / 5</div>
-                                <img src="image/stimulant-appetit.png" style="width:100%">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="image/colon-relax.png" style="width:100%">
                             </div>
 
                             <div class="mySlides mySlides-product">
-                                <div class="numbertext">3 / 5</div>
-                                <img src="image/bee-pollen.png" style="width:100%">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="image/total-confort.png" style="width:100%">
                             </div>
 
-                            <div class="mySlides mySlides-product">
-                                <div class="numbertext">4 / 5</div>
-                                <img src="image/gain-weight2.jpg" style="width:100%">
-                            </div>
-                            <div class="mySlides mySlides-product">
-                                <div class="numbertext">5 / 5</div>
-                                <img src="image/how-to-use-gain-weight.jpg" style="width:100%">
-                            </div>
                             <a class="prev" onclick="plusSlides(-1)">❮</a>
                             <a class="next" onclick="plusSlides(1)">❯</a>
 
                             <div class="caption-container">
-                                <p id="caption" style="color: #e74002;"></p>
+                                <p id="caption"></p>
                               </div>
                             <div class="row">
                               <div class="column">
-                                <img class="demo cursor" src="image/gain-weight.png" style="width:100%" onclick="currentSlide(1)" alt="Pack Supreme 3wcs">
+                                <img class="demo cursor" src="image/pack-colon.jpg" style="width:100%" onclick="currentSlide(0)" alt="Pack Confort">
                               </div>
                               <div class="column">
-                                <img class="demo cursor" src="image/stimulant-appetit.png" style="width:100%" onclick="currentSlide(2)" alt=" GREEN COFFEE / قهوة الخضراء ">
+                                <img class="demo cursor" src="image/colon-relax.png" style="width:100%" onclick="currentSlide(2)" alt=" Colon Relax + / كولون ريلاكس + ">
                               </div>
                               <div class="column">
-                                <img class="demo cursor" src="image/bee-pollen.png" style="width:100%" onclick="currentSlide(3)" alt="COUP FAIM / قاطع شهية ">
+                                <img class="demo cursor" src="image/total-confort.png" style="width:100%" onclick="currentSlide(3)" alt="Total Confort / الراحة تامة ">
                               </div>
-                              <div class="column">
-                                <img class="demo cursor" src="image/gain-weight2.jpg" style="width:100%" onclick="currentSlide(4)"t alt=" Flocons d'avoine / رقائق الشوفان" >
-                              </div>    
-                              <div class="column">
-                                <img class="demo cursor" src="image/how-to-use-gain-weight.jpg" style="width:100%" onclick="currentSlide(5)"t alt=" Comment utiliser / طريقة الاستعمال" >
-                              </div>    
                             </div>
                           </div>
                     </div>
                     <div class="description" id="submit">
-                        <h3>باقة زيادة الشهية و الوزن الكبيرة</h3>
+                        <h3>باقة الراحة   pack confort الاقوى للقضاء على القولون</h3>
                         <div class="price">
                             <div class="price-before">
-                                <span class="value">7200</span>
+                                <span class="value">4000</span>
                                 <span class="currency">&nbsp;د.ج</span>
                             </div>
                             <div class="price-after">
-                                <span class="value">6850</span>
+                                <span class="value">3100</span>
                                 <span class="currency">&nbsp;د.ج</span>
-                                <h3>+التوصيل مجاني</h3>
                             </div>
 
 
                         </div>
                         <form action="https://sheetdb.io/api/v1/zi9sdqtvf72na" method="post" id="sheetdb-form">
-                            <input type="hidden" name="data[type-product]" value="gain-weight">
+                            <input type="hidden" name="data[type-product]" value="colon">
                             <input type="hidden" name="data[quantity]" value="1" id="quantity">
                             <div class="chekout-form">
                                 <h2>للطلب ادخل معلوماتك في الخانات اسفله</h2>
@@ -211,108 +200,69 @@
                                     <i class="fa-solid fa-minus"></i>
                                 </span>
                             </div>
-                            <button type="submit" form="sheetdb-form" value="Update" >اضغط هنا للتاكيد الطلب</button>
+                            <button id="laka" type="submit" form="sheetdb-form" value="Update" >اضغط هنا للتاكيد الطلب</button>
                         </div>
                         <div class="text-description">
-                            <h3> *** باقة زيادة الوزن ***  </h3>
+                            <h3> *** باقة القولون  ***  </h3>
                             <div class="des-p">
                                 <!-- <p>
                                     <strong>--Supreme 3WCS</strong> هو أكثر من مجرد منتج لفقدان الوزن - إنه حل يغير حياتك ويمكن أن يساعدك أخيرًا في تحقيق الجسد والثقة التي طالما حلمت بها. مع مزيج قوي من المكونات الطبيعية بالكامل ، تم تصميم Supreme 3WCS للمساعدة في قمع شهيتك ، وتعزيز التمثيل الغذائي الخاص بك ، وحرق الدهون بسرعة وفعالية.
                                 </p> -->
                                 <p>
-                                    <strong>--نقدم لكم حزمة زيادة الوزن من انتاج ultimatedz</strong> ، الحل الأمثل لأولئك الذين يتطلعون إلى زيادة الوزن وبناء كتلة العضلات. تتضمن هذه الحزمة الشاملة مسحوق Bee Pollen Powder ، وفاتح للشهية ، وعلبة شوفان مجانية ، وكلها مصممة لمساعدتك على تحقيق أهداف زيادة الوزن.
+                                    <strong>--قد يكون صيام رمضان</strong> صعبًا في بعض الأحيان على البطن والقولون. إذا كنت تبحث عن طريقة طبيعية للتخلص من مشاكل القولون لديك خلال شهر رمضان ، فقد تساعدك حزمة "التخلص من القولون". تحتوي هذه الحزمة على منتجين: Total Comfort و Colon Relax.
                                 </p>
                                 <p>
-                                    <strong>--يعتبر Bee Pollen Powder </strong>مكملًا طبيعيًا غنيًا بالبروتينات والفيتامينات والمعادن حيث يتكون من 25 إلى 30٪ بروتينات نية &#40;بروتينات حرة وأحماض أمي&#41; ، وتحتوي أيضًا على ما بين 30 و 55٪ كربوهيدرات و 1 إلى 20٪ دهون. إنه غذاء غني جدًا بالعناصر الغذائية ، ومن ضمنها فيتامينات المجموعة ب ، وبالطبع تشتمل تركيبته أيضًا على الأملاح المعدنية والعناصر النزرة الأساسية مثل البوتاسيوم والمغنيسيوم والحديد وعناصر أخرى.
+                                    <strong>--فوائد المنتج :</strong>
+                                </p>
+                                <p>• يساهم في تقليل الانتفاخ وانتفاخ البطن وكذلك تحسين راحة الجهاز الهضمي.</p>
+                                <p>• يعزز حسن سير القولون.</p>
+                                <p>• حارب الانتفاخ والغازات والشعور بالثقل.</p>
+                                <p>• تسهيل الهضم وتهدئة الجهاز الهضمي.</p>
+                                <p>• يستخدم اليانسون الأخضر كمنشط للجهاز الهضمي.</p>
+                                <p>• ينقي الجسم ويزيل السموم منه.</p>
+                                <p>• يهدئ الإسهال والتهاب المعدة والأمعاء والإمساك.</p>
+                                <p>• يخفف من اضطرابات الجهاز الهضمي: حرقة المعدة ، انتفاخ البطن ، الانتفاخ ، التجشؤ ، تهيج الأمعاء.</p>
+                                <p>• يخفض نسبة الكوليسترول والدهون الثلاثية في الدم.</p>
+                                <p>• يزيل رائحة الفم الكريهة.</p>
+                                <p>
+                                    <strong style="color: red;">باستخدام هذين المنتجين معًا</strong> ، يمكنك تخفيف أعراض القولون خلال شهر رمضان والاستفادة الكاملة من فترة الصيام. جرب عرض "تخلص من القولون" اليوم واستمتع بشهر رمضان الهادئ.
                                 </p>
                                 <p>
-                                    <strong>--تم تصميم فاتح الشهية </strong>خصيصًا للمساعدة في زيادة شهيتك ، مما يضمن قدرتك على استهلاك السعرات الحرارية اللازمة لزيادة الوزن. يحتوي على مزيج من المكونات الطبيعية &#40;الحلبة الرومانية&#41;التي تساعد على تحفيز شهيتك وتقليل الشعور بالامتلاء.
+                                    <strong>--منتج ذة قاعدة نباتيه</strong> 100% طبيعي , مصنوع من طرف اخصاصين بالصحة و مدروس بدقة للوصول إلى احسن نتيجة ممكنة .
                                 </p>
                                 <p>
-                                    <strong>--تعتبر علبة الشوفان </strong> طريقة لذيذة ومريحة لإضافة سعرات حرارية إضافية إلى نظامك الغذائي. دقيق الشوفان هو غذاء عالي السعرات الحرارية وغني بالمغذيات وغني بالكربوهيدرات المعقدة والألياف والبروتين. إنها تقدم وجبة فطور أو وجبة خفيفة مثالية ، مما يساعدك على تحقيق أهدافك من السعرات الحرارية وزيادة الوزن.
+                                    <strong>  --المنتج مصرحة لدى وزارة الصحة و التجارة .</strong>
                                 </p>
-                                <p>
-                                    <strong style="color: red;">تعتمد مرحلة زيادة الوزن على مبدأ بسيط للغاية:</strong>
-                                </p>
-                                <p>- إذا كان نظامك الغذائي غنيًا بما يكفي فيما يتعلق بإنفاقك من السعرات الحرارية ، فسوف يزداد وزنك.</p>
-                                <p>- يتمثل العامل الآخر في دمج حزمة زيادة الوزن في نظامك الغذائي التقليدي ، وهي غنية جدًا بالعناصر الغذائية والبروتينات مع منبه للشهية.</p>
-                                <p>
-                                   <strong style="color: red;">نصائح لبرنامج الأسبوعين:</strong> 
-                                </p>
-                                <p>- زيادة السعرات الحرارية في نظامك الغذائي اليومي التقليدي.</p>
-                                <p>- تناول كمية كافية من الدهون الصحية والكربوهيدرات.</p>
-                                <p>- تقليل مستوى الإجهاد والتعب.</p>
-                                <p>- تناول المكسرات بين الوجبات إذا استطعت.</p>
-                                <p>- احترم البرنامج خلال أسبوعين.   </p>
-                                <p>
-                                    <strong style="color: red;">--فلماذا تنتظر؟ </strong>اطلب الآن وابدأ في تجربة مزايا باقة زيادة الوزن. مع الاستخدام المنتظم ، ستكون في طريقك لتحقيق لياقة بدنية أقوى وأكثر صحة وعضلات.
-                                </p>
+                                
                                 <div class="product-details">
                                     <h2> مكونات الباقة وفوائدها :</h2>
                                     <div class="content">
-                                        <div class="box" data-header=" غذاء النحل / Bee pollen">
+                                        <div class="box" data-header="كولون ريلاكس + / Colon Relax">
                                             <div class="image">
-                                                <img src="image/bee-pollen.png" alt="" style="width: 250px;">
+                                                <img src="image/colon-relax.png" alt="">
                                             </div>
                                             <ul class="Benefits">
-                                               <li>● قيمة غذائية عالية</li>
-                                               <li>● تعزيز الصحة البدنية والعقلية</li>
-                                               <li>● تساعد على زيادة الراحة وجودة الحياة</li>
-                                               <li>● يقوي المناعة ، خاصة أثناء التغيرات الموسمية</li>
-                                               <li>● يقلل من التهاب البروستاتا</li>
+                                               <li>• يساهم في تقليل الانتفاخ وانتفاخ البطن وكذلك تحسين راحة الجهاز الهضمي.</li>
+                                               <li>• يعزز حسن سير القولون.</li>
+                                               <li>• حارب الانتفاخ والغازات والشعور بالثقل.</li>
+                                               <li>• تسهيل الهضم وتهدئة الجهاز الهضمي.</li>
+                                               <li>• يستخدم اليانسون الأخضر كمنشط للجهاز الهضمي.</li>
                                             </ul>
                                         </div>
-                                        <div class="box"data-header=" فاتح الشهية / Stimulant appetit">
+                                        <div class="box"data-header=" الراحة تامة / Total Confort">
                                             <div class="image">
-                                                <img src="image/stimulant-appetit.png" alt="">
+                                                <img src="image/total-confort.png" alt="">
                                             </div>
                                             <ul class="Benefits">
-                                              <li>● يعزز مستويات السكر في الدم الطبيعية.</li>
-                                              <li>● يدعم الرضاعة ويعزز الشفاء &#41;للأم&#41; بعد الولادة.</li>
-                                              <li>● يعزز زيادة الوزن بشكل صحي.</li>
-                                              <li>● يساهم في توازن التمثيل الغذائي للدهون والجلوكوز والأنسولين.</li>
-                                            </ul>
-                                        </div>
-                                        <div class="box"data-header=" رقائق الشوفان / Flocons d'avoine ">
-                                            <div class="image">
-                                                <img src="image/gain-weight2.jpg" alt="">
-                                            </div>
-                                            <ul class="Benefits">
-                                                <li>مصدر جيد للكربوهيدرات المعقدة التي توفر طاقة طويلة الأمد وتساعد في زيادة الوزن.</li>
-                                                <li>على كمية مناسبة من البروتين</li>
-                                                <li>يحتوي الشوفان على الدهون الصحية</li>
-                                                <li>تنظيم مستويات السكر في الدم</li>
+                                                <li>● ينقي الجسم ويزيل السموم منه</li>
+                                                <li>● يهدئ الإسهال والتهاب المعدة والأمعاء والإمساك</li>
+                                                <li>● يخفف اضطرابات الجهاز الهضمي: حرقة ، انتفاخ ، انتفاخ ، تجشؤ ، تهيج الأمعاء</li>
+                                                <li>● يخفض نسبة الكوليسترول والدهون الثلاثية في الدم</li>
+                                                <li>● يزيل رائحة الفم الكريهة</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="avis">
-                                    <h2>مراجعة بعض الزبائن :</h2>
-                                    <div class="all">
-                                        <div class="container-slider" style="direction: ltr;">
-                                            <div class="mySlides-avis mySlides">
-                                                <div class="numbertext">1 / 3</div>
-                                                <img src="image/avis-gain-weight1.jpg" style="width:100%">
-                                            </div>
-
-                                            <div class="mySlides-avis mySlides">
-                                                <div class="numbertext">2 / 3</div>
-                                                <img src="image/avis-gain-weight2.jpg" style="width:100%">
-                                            </div>
-
-                                            <div class="mySlides-avis mySlides">
-                                                <div class="numbertext">3 / 3</div>
-                                                <img src="image/avis-gain-weight3.jpg" style="width:100%">
-                                            </div>
-                                            <a class="prev" onclick="plusSlides2(-1)">❮</a>
-                                            <a class="next" onclick="plusSlides2(1)">❯</a>
-                                          </div>
-                                    </div>
-                                </div>
-                                <p class="notice">
-                                    <span>ملاحظة هامة :</span>
-                                    لا ينصح به للحوامل اكثر من 6 اشهر و المرضعات اقل من 6 اشهر.
-                                </p>
                                 <p>
                                     👈الدفع عند الاستلام
                                     <br>
@@ -326,78 +276,131 @@
                                 باقات اخرى
                             </h2>
                                 <div class="packs">
-                                <div class="box">
-                                    <div class="image">
-                                        <a href="Anti-Chute.html"><img src="image/anti-chut.jpg" alt=""></a>
-                                    </div>
-                                    <h3>باقة تساقط الشعر</h3>
-                                    <div class="price">
-                                        <div class="price-before">
-                                            <span class="value">5500</span>
-                                            <span class="currency">&nbsp;د.ج</span>
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="weight-loss-ramadan.html"><img src="image/pack-weight-loss-ramadan.png" alt=""></a>
                                         </div>
-                                        <div class="price-after">
-                                            <span class="value">5000</span>
-                                            <span class="currency">&nbsp;د.ج</span>
+                                        <h3>باقة Ramadan 3wcs</h3>
+                                        <div class="price">
+                                                <div class="price-before">
+                                                    <span class="value">5600</span>
+                                                    <span class="currency">&nbsp;د.ج</span>
+                                                </div>
+                                                <div class="price-after">
+                                                    <span class="value">5000</span>
+                                                    <span class="currency">&nbsp;د.ج</span>
+                                                </div>
                                         </div>
-                                        <p>+ التوصيل مجاني</p>
+                                        <a href="weight-loss-ramadan.html"><div class="buy">شراء الآن</div></a>
                                     </div>
-                                    <a href="standard.html"><div class="buy">شراء الآن</div></a>
-                                </div>    
-                                <div class="box">
-                                    <div class="image">
-                                        <a href="jumbo.html"><img src="image/jumbo.png" alt=""></a>
-                                    </div>
-                                    <h3>باقة jumbo 3wcs</h3>
-                                    <div class="price">
-                                        <div class="price-before">
-                                            <span class="value">8000</span>
-                                            <span class="currency">&nbsp;د.ج</span>
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="special.html"><img src="image/special.jpg" alt=""></a>
                                         </div>
-                                        <div class="price-after">
-                                            <span class="value">7650</span>
-                                            <span class="currency">&nbsp;د.ج</span>
-                                        </div>
-                                        <p>+ التوصيل مجاني</p>
-                                    </div>
-                                    <a href="jumbo.html"><div class="buy">شراء الآن</div></a>
-                                 </div>
-                                <div class="box">
-                                    <div class="image">
-                                        <a href="Anti-Chute.html"><img src="image/anti-chut.jpg" alt=""></a>
-                                    </div>
-                                    <h3>باقة تساقط الشعر</h3>
-                                    <div class="price">
-                                        <div class="price-before">
-                                            <span class="value">5500</span>
-                                            <span class="currency">&nbsp;د.ج</span>
-                                        </div>
-                                        <div class="price-after">
-                                            <span class="value">5000</span>
-                                            <span class="currency">&nbsp;د.ج</span>
-                                        </div>
-                                        <p>+ التوصيل مجاني</p>
-                                    </div>
-                                    <a href="Anti-Chute.html"><div class="buy">شراء الآن</div></a>
-                                </div>
-                                <div class="box">
-                                    <div class="image">
-                                        <a href="weight-control.html"><img src="image/weight-contol-pack.png" alt=""></a>
-                                    </div>
-                                    <h3>باقة التحكم في الوزن</h3>
-                                    <div class="price">
+                                        <h3>باقة المناطق  الزائدة</h3>
+                                        <div class="price">
                                             <div class="price-before">
-                                                <span class="value">4300</span>
+                                                <span class="value">5500</span>
                                                 <span class="currency">&nbsp;د.ج</span>
                                             </div>
                                             <div class="price-after">
-                                                <span class="value">3800</span>
+                                                <span class="value">4290</span>
                                                 <span class="currency">&nbsp;د.ج</span>
                                             </div>
-                                        <p>+ التوصيل مجاني</p>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="special.html"><div class="buy" ">شراء الآن</div></a>
+                                    </div> 
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="jumbo.html"><img src="image/jumbo.png" alt=""></a>
+                                        </div>
+                                        <h3>باقة jumbo 3wcs</h3>
+                                        <div class="price">
+                                            <div class="price-before">
+                                                <span class="value">8000</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <div class="price-after">
+                                                <span class="value">7650</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="jumbo.html"><div class="buy">شراء الآن</div></a>
                                     </div>
-                                    <a href="weight-control.html"><div class="buy">شراء الآن</div></a>
-                                </div>  
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="standard.html"><img src="image/standard.png" alt=""></a>
+                                        </div>
+                                        <h3>باقة standard 3wcs</h3>
+                                        <div class="price">
+                                            <div class="price-before">
+                                                <span class="value">7300</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <div class="price-after">
+                                                <span class="value">6450</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="standard.html"><div class="buy">شراء الآن</div></a>
+                                    </div>
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="weight-control.html"><img src="image/weight-contol-pack.png" alt=""></a>
+                                        </div>
+                                        <h3>باقة التحكم في الوزن</h3>
+                                        <div class="price">
+                                                <div class="price-before">
+                                                    <span class="value">4300</span>
+                                                    <span class="currency">&nbsp;د.ج</span>
+                                                </div>
+                                                <div class="price-after">
+                                                    <span class="value">3800</span>
+                                                    <span class="currency">&nbsp;د.ج</span>
+                                                </div>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="weight-control.html"><div class="buy">شراء الآن</div></a>
+                                    </div>
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="Anti-Chute.html"><img src="image/anti-chut.jpg" alt=""></a>
+                                        </div>
+                                        <h3>باقة تساقط الشعر</h3>
+                                        <div class="price">
+                                            <div class="price-before">
+                                                <span class="value">5500</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <div class="price-after">
+                                                <span class="value">5000</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="Anti-Chute.html"><div class="buy">شراء الآن</div></a>
+                                    </div>
+                                    <div class="box">
+                                        <div class="image">
+                                            <a href="gain-wheight.html"><img src="image/gain-weight.png" alt=""></a>
+                                        </div>
+                                        <h3>باقة زيادة الشهية و الوزن</h3>
+                                        <div class="price">
+                                            <div class="price-before">
+                                                <span class="value">7200</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <div class="price-after">
+                                                <span class="value">6850</span>
+                                                <span class="currency">&nbsp;د.ج</span>
+                                            </div>
+                                            <p>+ التوصيل مجاني</p>
+                                        </div>
+                                        <a href="gain-wheight.html"><div class="buy">شراء الآن</div></a>
+                                    </div>
                                 </div>
                         </div>
                     </div>
